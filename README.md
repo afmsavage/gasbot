@@ -10,9 +10,7 @@ Simple Discord bot that publishes the Ethereum gas price fetched from [Gasnow](h
   
   #### Example response
 ```
-gas bot
-BOT
-Today at 6:41 PM
+gas bot BOT Today at 6:41 PM
 rapid: 221000000000
 fast: 209000001459
 standard: 170000000000
