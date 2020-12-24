@@ -1,5 +1,5 @@
 # must use full node for some node-gyp and script stuffs
-FROM node:12:latest
+FROM node:latest
 
 WORKDIR /usr/src/app
 

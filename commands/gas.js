@@ -10,10 +10,10 @@ module.exports = {
       axios.get(url).then(function (response) {
         const gasPrice = response.data.data;
         message.channel.send(`
-        rapid: ${gasPrice.rapid}
-        fast: ${gasPrice.fast}
-        standard: ${gasPrice.standard}
-        slow: ${gasPrice.slow}`);
+rapid: ${gasPrice.rapid}
+fast: ${gasPrice.fast}
+standard: ${gasPrice.standard}
+slow: ${gasPrice.slow}`);
       });
     },
   };
