@@ -1,6 +1,6 @@
 {
   "name": "ethgasbot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple Discord bot that returns the current Ethereum gas price from Gasnow.org",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,10 @@
     "publish": "npm version patch --force && npm publish --access=public"
   },
   "keywords": [
-      "discord",
-      "ethereum",
-      "gas price",
-      "bot"
+    "discord",
+    "ethereum",
+    "gas price",
+    "bot"
   ],
   "author": "Antonio Savage",
   "license": "MIT",
