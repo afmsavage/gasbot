@@ -1,8 +1,9 @@
 {
   "name": "@pantsme/ethgasbot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple Discord bot that returns the current Ethereum gas price from Gasnow.org",
   "main": "index.js",
+  "repository": "afmsavage/gasbot",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
