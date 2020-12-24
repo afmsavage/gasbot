@@ -1,5 +1,5 @@
 {
-  "name": "ethgasbot",
+  "name": "@pantsme/ethgasbot",
   "version": "0.0.2",
   "description": "Simple Discord bot that returns the current Ethereum gas price from Gasnow.org",
   "main": "index.js",
