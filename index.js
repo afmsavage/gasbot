@@ -20,26 +20,26 @@ client.once('ready', () => {
     game: {
       name: 'eth gas bot',
       type: 'Watching',
-      url: 'https://www.gasnow.org/',
+      url: 'https://www.defisaver.com/',
     },
   });
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on('message', message => {
-	if (!message.content.startsWith(prefix) || message.author.bot) return;
+client.on('message', (message) => {
+  if (!message.content.startsWith(prefix) || message.author.bot) return;
 
-	const args = message.content.slice(prefix.length).split(/ +/);
-	const command = args.shift().toLowerCase();
+  const args = message.content.slice(prefix.length).split(/ +/);
+  const command = args.shift().toLowerCase();
 
-	if (!client.commands.has(command)) return;
+  if (!client.commands.has(command)) return;
 
-	try {
-		client.commands.get(command).execute(message, args);
-	} catch (error) {
-		console.error(error);
-		message.reply('there was an error trying to execute that command!');
-	}
+  try {
+    client.commands.get(command).execute(message, args);
+  } catch (error) {
+    console.error(error);
+    message.reply('there was an error trying to execute that command!');
+  }
 });
 
 client.login(process.env.BOTTOKEN);
