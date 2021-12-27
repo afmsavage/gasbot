@@ -15,9 +15,9 @@ module.exports = {
         const blocknativeGasPrice = response.data;
         message.channel.send(`
       #### Blocknative.com ####
-      confidence 99%: ${blocknativeGasPrice.blockPrices[0].estimatedPrices[0].price}
-      confidence 95%: ${blocknativeGasPrice.blockPrices[0].estimatedPrices[1].price}
-      confidence 70%: ${blocknativeGasPrice.blockPrices[0].estimatedPrices[4].price}`);
+confidence 99%:  ${blocknativeGasPrice.blockPrices[0].estimatedPrices[0].price} gwei
+confidence 95%:  ${blocknativeGasPrice.blockPrices[0].estimatedPrices[1].price} gwei
+confidence 70%:  ${blocknativeGasPrice.blockPrices[0].estimatedPrices[4].price} gwei`);
       });
   },
 };
